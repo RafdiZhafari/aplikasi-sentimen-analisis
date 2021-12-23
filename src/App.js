@@ -6,6 +6,7 @@ import React, { useState,useEffect } from 'react';
 
 function App(){
   const [status,setStatus] = useState('positif');
+  const [currentTime, setCurrentTime] = useState(0);
   function handleButton (event){
     event.preventDefault();
     if(status=='positif'){
@@ -14,6 +15,12 @@ function App(){
       setStatus('positif')
     }
   } 
+  useEffect(()=>{
+    //document.title="Projek SIB";
+    fetch('/time').then(res => res.json()).then(data =>{
+      setCurrentTime(data.time);
+    });
+  },[]);
   return (
     <div>
         <div id="header-bg">
@@ -26,6 +33,7 @@ function App(){
                     <textarea name="input" id="input-text" cols="30" rows="10"></textarea>
                     <p id="output">{status}</p>
                     <button type="submit" id="input-submit" >Cek</button>
+                    <p>{currentTime}</p>
                 </form>
             </div>
         </div>

@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 /*{
     text-align: left;
     font-family: Lato;
@@ -11,7 +12,7 @@ body{
     padding: 0 20px;
 }
 .header{
-    font-family:monospace;
+    font-family:Lato;
     text-align: left;
     margin-top:0;
     margin-left: 20 px;
