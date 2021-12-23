@@ -1,11 +1,11 @@
 # Dari Gw
 ## Flask
-Masukin aplikasi Flasknya di app.py
-di running dulu pake "python -m flask run" di terminalnya
+Masukin aplikasi Flasknya di app.py.\
+di running dulu pake "python -m flask run" di terminalnya.\
 terminalnya kalau gw pake yg cmd
 
 ## Web
-Runningnya pake npm start di terminalnya
+Runningnya pake npm start di terminalnya.\
 terminalnya kalo gw pake yang powershell
 # Dari Abang-abangnya
 ## Getting Started with Create React App
