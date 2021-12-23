@@ -1,25 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+//import './coba'
+import Car from './coba';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const demo = new Car();
+
+function App(){
+  <p id="app"></p>
+  document.getElementById("app").innerHTML = demo.cetak;
 }
-
+//<p>Mobil saya mereknya {mobil}</p>
 export default App;
