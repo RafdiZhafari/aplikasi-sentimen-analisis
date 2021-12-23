@@ -1,17 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-//import App from './App';
-import Car from './coba';
+import App from './App';
+//import Car from './coba';
 import reportWebVitals from './reportWebVitals';
 
-const messages = new Car();
-const pesan = messages.cetak
+//const messages = new Car();
+//const pesan = messages.cetak
 ReactDOM.render(
-  /*<React.StrictMode>
+  <React.StrictMode>
     <App />
-  </React.StrictMode>*/
-  <p id='coba'>{pesan}</p>,
+  </React.StrictMode>,
   document.getElementById('root')
 );
 
