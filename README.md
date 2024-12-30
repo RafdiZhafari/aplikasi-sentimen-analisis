@@ -1,4 +1,4 @@
-# Dari Gw
+# From Me
 ## Flask
 Masukin aplikasi Flasknya di app.py.\
 di running dulu pake "python -m flask run" di terminalnya.\
@@ -7,7 +7,7 @@ terminalnya kalau gw pake yg cmd
 ## Web
 Runningnya pake npm start di terminalnya.\
 terminalnya kalo gw pake yang powershell
-# Dari Abang-abangnya
+# From App
 ## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
